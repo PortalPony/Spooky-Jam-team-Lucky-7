@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dphe5ke52ej4i"]
+
+[ext_resource type="PackedScene" uid="uid://caqonjw3bm8f4" path="res://IM Portal's folder/Block System/effect/rotate_parent.tscn" id="1_7wlv6"]
+[ext_resource type="Texture2D" uid="uid://dnlo2ymwj6vsb" path="res://IM Portal's folder/PNG/Door Gray.png" id="1_xauf5"]
+[ext_resource type="PackedScene" uid="uid://bg6ocfwyj2du8" path="res://IM Portal's folder/Block System/cause/press_me.tscn" id="2_ju6sb"]
+
+[node name="Door" type="Node2D"]
+
+[node name="Rotate Parent" parent="." instance=ExtResource("1_7wlv6")]
+position = Vector2(37, 104)
+scale = Vector2(0.8988764, 0.9470199)
+
+[node name="Press Me" parent="Rotate Parent" instance=ExtResource("2_ju6sb")]
+amount = 90
+
+[node name="DoorGray" type="Sprite2D" parent="."]
+position = Vector2(46, -14.000006)
+scale = Vector2(0.6963127, 0.44953477)
+texture = ExtResource("1_xauf5")
