@@ -7,3 +7,4 @@ res://main/Block System/effect/add_to_autobus.gd
 res://main/scripts/Inventory.gd
 res://main/main_scene.tscn
 res://main/scenes/breaker_box.tscn
+res://main/wall.tscn

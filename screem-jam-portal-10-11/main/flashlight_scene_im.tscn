@@ -1,24 +1,20 @@
-[gd_scene load_steps=2 format=3 uid="uid://bmrwfp5ltwqrp"]
+[gd_scene load_steps=3 format=3 uid="uid://co5w8obg657sa"]
 
-[ext_resource type="Texture2D" path="res://main/IM Flashlight.png" id="1_3h87m"]
+[ext_resource type="Script" uid="uid://drvikjc8i7yvw" path="res://main/scripts/flashlight.gd" id="1_2uiyh"]
+[ext_resource type="Texture2D" uid="uid://c5186uledofno" path="res://main/IM_Flashlight.png" id="1_hdy28"]
 
 [node name="Flashlight scene IM" type="Node2D"]
 scale = Vector2(0.5, 0.5)
-
-[node name="ColorRect" type="ColorRect" parent="."]
-offset_left = -3738.0002
-offset_top = -2670.0
-offset_right = 916.99976
-offset_bottom = 1367.0
-scale = Vector2(1.7339814, 1.5065445)
-color = Color(0.18000486, 0.18000486, 0.18000486, 0.68235296)
+script = ExtResource("1_2uiyh")
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
-position = Vector2(-0.74035597, -1.4263916)
 rotation = 1.5707964
-scale = Vector2(40.242413, 31.526308)
-energy = 4.0
+scale = Vector2(67.686554, 35.624996)
+color = Color(1, 1, 1, 0.6117647)
+energy = 4.42
+blend_mode = 2
+range_z_max = 1
+range_layer_max = 19
 shadow_enabled = true
-texture = ExtResource("1_3h87m")
-offset = Vector2(-0.5112425, -17.913305)
-texture_scale = 0.05
+texture = ExtResource("1_hdy28")
+texture_scale = 0.03

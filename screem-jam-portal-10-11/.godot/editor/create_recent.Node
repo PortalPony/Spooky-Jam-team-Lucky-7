@@ -1,6 +1,9 @@
+CanvasModulate
+ColorRect
+DirectionalLight2D
 LightOccluder2D
+Sprite2D
 AnimatedSprite2D
 CharacterBody2D
 TileMapLayer
 PointLight2D
-CanvasModulate

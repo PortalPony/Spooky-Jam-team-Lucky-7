@@ -1,13 +1,15 @@
 63f7b34db8d8cdea90c76aacccf841ec
 ::res://::1760279385
 icon.svg::CompressedTexture2D::1867933635168428132::1760277293::1760277378::1::::<><><>0<>0<>e34539c72ef1b3ce511cbb5e6e78d3d7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://main/::1760280243
+::res://main/::1760282756
 door.tscn::PackedScene::8226842324528451606::1760279385::0::1::::<><><>0<>0<><>::uid://caqonjw3bm8f4::::res://main/Block System/effect/rotate_parent.tscn<>uid://dnlo2ymwj6vsb::::res://main/PNG/Door Gray.png<>uid://bg6ocfwyj2du8::::res://main/Block System/cause/press_me.tscn
 erin's_art_tile_map.tscn::PackedScene::689173472169517991::1760279385::0::1::::<><><>0<>0<><>::uid://47hohp2f762y::::res://main/PNG/IM Erin's art/floor_sheet.webp<>uid://byn2lp3pa0c41::::res://main/PNG/IM Erin's art/decor.png
-full_human_player.tscn::PackedScene::980737693241341712::1760279385::0::1::::<><><>0<>0<><>::uid://ctjvoyd66bv46::::res://main/scripts/full_human_player.gd<>uid://niidnijw0t3w::::res://main/PNG/png/Charactors/FULL HUAMAN/legs  FULL HUAMN.png<>uid://dr5as6q2jyc8g::::res://main/scripts/legs_look_at.gd<>uid://cuqlv3ak5pkjb::::res://main/PNG/png/Charactors/FULL HUAMAN/FULL HUAMN no legs.png<>uid://bga78dp2g2cj0::::res://main/lc_weapon_base.tscn
+flashlight_scene_im.tscn::PackedScene::5818811953167134660::1760282390::0::1::::<><><>0<>0<><>::
+full_human_player.tscn::PackedScene::980737693241341712::1760282464::0::1::::<><><>0<>0<><>::uid://ctjvoyd66bv46::::res://main/scripts/full_human_player.gd<>uid://niidnijw0t3w::::res://main/PNG/png/Charactors/FULL HUAMAN/legs  FULL HUAMN.png<>uid://dr5as6q2jyc8g::::res://main/scripts/legs_look_at.gd<>uid://cuqlv3ak5pkjb::::res://main/PNG/png/Charactors/FULL HUAMAN/FULL HUAMN no legs.png<>uid://bga78dp2g2cj0::::res://main/lc_weapon_base.tscn<>uid://co5w8obg657sa::::res://main/flashlight_scene_im.tscn
+IM_Flashlight.png::CompressedTexture2D::6934240586151231548::1760282756::1760282757::1::::<><><>0<>0<>e2f341802f05cbdb25c6f8002514ecf3<>res://.godot/imported/IM_Flashlight.png-6c82c62aee1a4077e91477e78448b6f3.ctex::
 lc_weapon_base.tscn::PackedScene::2809555802466638763::1760279385::0::1::::<><><>0<>0<><>::uid://drx4nxdgqb3y6::::res://main/scripts/LC_Gun_Base.gd
-main_scene.tscn::PackedScene::7608303949167836560::1760280243::0::1::::<><><>0<>0<><>::uid://dphe5ke52ej4i::::res://main/door.tscn<>uid://1u3ug0bm4h7a::::res://icon.svg<>uid://df75fiop06k7i::::res://main/wall.tscn<>uid://n8cuvewwtsia::::res://main/full_human_player.tscn<>uid://47hohp2f762y::::res://main/PNG/IM Erin's art/floor_sheet.webp<>uid://byn2lp3pa0c41::::res://main/PNG/IM Erin's art/decor.png<>uid://shmlf73sc00x::::res://main/scripts/character_body_2d.tscn
-wall.tscn::PackedScene::7578097238682130136::1760279385::0::1::::<><><>0<>0<><>::uid://1u3ug0bm4h7a::::res://icon.svg<>uid://bucefqe32taqv::::res://main/PNG/Basic Wall 1.png
+main_scene.tscn::PackedScene::7608303949167836560::1760282438::0::1::::<><><>0<>0<><>::uid://dphe5ke52ej4i::::res://main/door.tscn<>uid://1u3ug0bm4h7a::::res://icon.svg<>uid://df75fiop06k7i::::res://main/wall.tscn<>uid://n8cuvewwtsia::::res://main/full_human_player.tscn<>uid://47hohp2f762y::::res://main/PNG/IM Erin's art/floor_sheet.webp<>uid://byn2lp3pa0c41::::res://main/PNG/IM Erin's art/decor.png<>uid://shmlf73sc00x::::res://main/scripts/character_body_2d.tscn
+wall.tscn::PackedScene::7578097238682130136::1760282149::0::1::::<><><>0<>0<><>::uid://1u3ug0bm4h7a::::res://icon.svg<>uid://bucefqe32taqv::::res://main/PNG/Basic Wall 1.png
 ::res://main/Block System/::1760277293
 ::res://main/Block System/cause/::1760279385
 press_me.gd::GDScript::6402747147949082793::1760277293::0::1::::<>Area2D<><>0<>0<><>::
