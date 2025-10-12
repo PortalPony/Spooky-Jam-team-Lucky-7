@@ -14,9 +14,11 @@ scale = Vector2(1.7339814, 1.5065445)
 color = Color(0.18000486, 0.18000486, 0.18000486, 0.68235296)
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
-position = Vector2(-12, -572)
+position = Vector2(-0.74035597, -1.4263916)
+rotation = 1.5707964
 scale = Vector2(40.242413, 31.526308)
 energy = 4.0
 shadow_enabled = true
 texture = ExtResource("1_3h87m")
+offset = Vector2(-0.5112425, -17.913305)
 texture_scale = 0.05
