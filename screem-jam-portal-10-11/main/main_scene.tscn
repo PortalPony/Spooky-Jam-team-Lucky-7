@@ -1,15 +1,12 @@
-[gd_scene load_steps=16 format=4 uid="uid://dgnrwisyxeas3"]
+[gd_scene load_steps=13 format=4 uid="uid://dgnrwisyxeas3"]
 
 [ext_resource type="PackedScene" uid="uid://dphe5ke52ej4i" path="res://main/door.tscn" id="1_g5v5e"]
-[ext_resource type="PackedScene" uid="uid://b4j0ceow51e6k" path="res://main/scenes/ui.tscn" id="1_rmejh"]
 [ext_resource type="Texture2D" uid="uid://1u3ug0bm4h7a" path="res://icon.svg" id="2_vctft"]
 [ext_resource type="PackedScene" uid="uid://df75fiop06k7i" path="res://main/wall.tscn" id="3_h14ac"]
-[ext_resource type="PackedScene" uid="uid://coymtmkusx25r" path="res://main/full_human_player.tscn" id="4_vctft"]
+[ext_resource type="PackedScene" uid="uid://n8cuvewwtsia" path="res://main/full_human_player.tscn" id="4_vctft"]
 [ext_resource type="Texture2D" uid="uid://47hohp2f762y" path="res://main/PNG/IM Erin's art/floor_sheet.webp" id="5_h14ac"]
 [ext_resource type="Texture2D" uid="uid://byn2lp3pa0c41" path="res://main/PNG/IM Erin's art/decor.png" id="6_8stfj"]
-[ext_resource type="PackedScene" path="res://main/enemys.tscn" id="7_vtfip"]
-[ext_resource type="PackedScene" uid="uid://dko3mm3vird2b" path="res://main/scenes/battery.tscn" id="8_ncflg"]
-[ext_resource type="PackedScene" uid="uid://c0xdavqccvqvs" path="res://main/scenes/breaker_box.tscn" id="10_sfolt"]
+[ext_resource type="PackedScene" uid="uid://shmlf73sc00x" path="res://main/enemys.tscn" id="7_vtfip"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6wq6w"]
 texture = ExtResource("5_h14ac")
@@ -54,8 +51,6 @@ size = Vector2(320, 259)
 
 [node name="Main Scene" type="Node2D"]
 
-[node name="UI" parent="." instance=ExtResource("1_rmejh")]
-
 [node name="Wall" parent="." instance=ExtResource("3_h14ac")]
 position = Vector2(-100, -884)
 scale = Vector2(1, 10)
@@ -82,9 +77,6 @@ position = Vector2(1195, 399.00006)
 scale = Vector2(40.242413, 31.526308)
 texture = ExtResource("2_vctft")
 
-[node name="FULL Human Player" parent="." instance=ExtResource("4_vctft")]
-position = Vector2(275, 117)
-
 [node name="Door" parent="." instance=ExtResource("1_g5v5e")]
 position = Vector2(1, 3)
 
@@ -94,7 +86,6 @@ tile_map_data = PackedByteArray("AADH/1YAAAADAAAAADDI/1YAAAACAAEAAADJ/1YAAAACAAE
 tile_set = SubResource("TileSet_t8whk")
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-visible = false
 color = Color(0, 0, 0, 1)
 
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="." groups=["navigation_polygon_source_geometry_group"]]
@@ -118,11 +109,5 @@ position = Vector2(1134, -232)
 position = Vector2(-27, 101)
 shape = SubResource("RectangleShape2D_vtfip")
 
-[node name="Battery" parent="." instance=ExtResource("8_ncflg")]
-position = Vector2(209, -67)
-
-[node name="Battery2" parent="." instance=ExtResource("8_ncflg")]
-position = Vector2(88, -92)
-
-[node name="Breaker box" parent="." instance=ExtResource("10_sfolt")]
-position = Vector2(340, -16)
+[node name="FULL Human Player" parent="." instance=ExtResource("4_vctft")]
+position = Vector2(211, 115)

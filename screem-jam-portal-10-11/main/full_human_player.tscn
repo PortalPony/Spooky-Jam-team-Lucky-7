@@ -1,9 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://coymtmkusx25r"]
+[gd_scene load_steps=5 format=3 uid="uid://n8cuvewwtsia"]
 
 [ext_resource type="Script" uid="uid://ctjvoyd66bv46" path="res://main/scripts/full_human_player.gd" id="1_78epi"]
-[ext_resource type="Texture2D" uid="uid://niidnijw0t3w" path="res://main/PNG/png/Charactors/FULL HUAMAN/legs  FULL HUAMN.png" id="2_b1bpy"]
-[ext_resource type="Script" uid="uid://dr5as6q2jyc8g" path="res://main/scripts/legs_look_at.gd" id="3_b1bpy"]
-[ext_resource type="Texture2D" uid="uid://cuqlv3ak5pkjb" path="res://main/PNG/png/Charactors/FULL HUAMAN/FULL HUAMN no legs.png" id="3_smff5"]
+[ext_resource type="Texture2D" uid="uid://bg4hmcjuujgo6" path="res://main/Electrician.png" id="2_ncjga"]
 [ext_resource type="PackedScene" uid="uid://co5w8obg657sa" path="res://main/flashlight_scene_im.tscn" id="6_bi7sy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_cund8"]
@@ -12,20 +10,10 @@ radius = 26.019224
 [node name="FULL Human Player" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_78epi")
 
-[node name="Legs Look at" type="Sprite2D" parent="."]
-scale = Vector2(0.265, 0.265)
-texture = ExtResource("2_b1bpy")
-script = ExtResource("3_b1bpy")
-
-[node name="LegsFullHuamn2" type="Sprite2D" parent="."]
-rotation = -3.14159
-scale = Vector2(0.265, 0.265)
-texture = ExtResource("2_b1bpy")
-
 [node name="FullHuamnNoLegs" type="Sprite2D" parent="."]
-position = Vector2(6, 4)
-scale = Vector2(0.265, 0.265)
-texture = ExtResource("3_smff5")
+position = Vector2(-0.38384816, 16.999996)
+scale = Vector2(5, 5)
+texture = ExtResource("2_ncjga")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
@@ -33,12 +21,12 @@ texture = ExtResource("3_smff5")
 shape = SubResource("CircleShape2D_cund8")
 
 [node name="Flashlight scene IM" parent="." instance=ExtResource("6_bi7sy")]
-position = Vector2(35, 14)
-scale = Vector2(1, 1)
+position = Vector2(-24.999994, -3.8146973e-06)
+scale = Vector2(0.99999994, 0.99999994)
 
 [node name="PointLight2D" parent="Flashlight scene IM" index="0"]
-position = Vector2(50, 0.99999994)
-rotation = -1.5707964
-scale = Vector2(159.619, 100)
+position = Vector2(-3.383854, 103)
+rotation = 0.0
+scale = Vector2(159.617, 100)
 
 [editable path="Flashlight scene IM"]
