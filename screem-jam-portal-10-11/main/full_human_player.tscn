@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://n8cuvewwtsia"]
+[gd_scene load_steps=7 format=3 uid="uid://coymtmkusx25r"]
 
 [ext_resource type="Script" uid="uid://ctjvoyd66bv46" path="res://main/scripts/full_human_player.gd" id="1_78epi"]
 [ext_resource type="Texture2D" uid="uid://niidnijw0t3w" path="res://main/PNG/png/Charactors/FULL HUAMAN/legs  FULL HUAMN.png" id="2_b1bpy"]

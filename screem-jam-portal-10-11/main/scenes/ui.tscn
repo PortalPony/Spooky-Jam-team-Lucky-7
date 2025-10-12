@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://b4j0ceow51e6k"]
+[gd_scene load_steps=3 format=3 uid="uid://b4j0ceow51e6k"]
 
 [ext_resource type="Script" uid="uid://bwuqpg8uhbtji" path="res://main/scripts/show_batteries.gd" id="1_4khfq"]
+[ext_resource type="Script" uid="uid://bc8r6hbcr3u60" path="res://main/scripts/show_breakBox.gd" id="2_akaht"]
 
 [node name="UI" type="CanvasLayer"]
 
@@ -10,3 +11,10 @@ offset_top = 20.0
 offset_right = 60.0
 offset_bottom = 43.0
 script = ExtResource("1_4khfq")
+
+[node name="Show BreakBox" type="Label" parent="."]
+offset_left = 22.0
+offset_top = 66.0
+offset_right = 62.0
+offset_bottom = 89.0
+script = ExtResource("2_akaht")

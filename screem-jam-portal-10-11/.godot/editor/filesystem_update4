@@ -12,3 +12,5 @@ res://main/scripts/show_batteries.gd
 res://main/scenes/battery.tscn
 res://main/scenes/ui.tscn
 res://main/Block System/cause/step_on_me.gd
+res://main/scripts/full_human_player.gd
+res://main/scripts/show_breakBox.gd
