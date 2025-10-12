@@ -84,4 +84,4 @@ position = Vector2(684, 135)
 target = NodePath("../FULL Human Player")
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-color = Color(0.2520276, 0.25202766, 0.25202763, 1)
+color = Color(0, 0, 0, 1)

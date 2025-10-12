@@ -44,7 +44,7 @@ position = Vector2(100, 10)
 scale = Vector2(1, 1)
 
 [node name="PointLight2D" parent="Flashlight scene IM" index="0"]
-position = Vector2(36, -6)
-scale = Vector2(102.07245, 48.541664)
+position = Vector2(54.000008, -2.0000005)
+scale = Vector2(17.75647, 11.124323)
 
 [editable path="Flashlight scene IM"]
