@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmrwfp5ltwqrp"]
+
+[ext_resource type="Texture2D" path="res://main/IM Flashlight.png" id="1_3h87m"]
+
+[node name="Flashlight scene IM" type="Node2D"]
+scale = Vector2(0.5, 0.5)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -3738.0002
+offset_top = -2670.0
+offset_right = 916.99976
+offset_bottom = 1367.0
+scale = Vector2(1.7339814, 1.5065445)
+color = Color(0.18000486, 0.18000486, 0.18000486, 0.68235296)
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(-12, -572)
+scale = Vector2(40.242413, 31.526308)
+energy = 4.0
+shadow_enabled = true
+texture = ExtResource("1_3h87m")
+texture_scale = 0.05
