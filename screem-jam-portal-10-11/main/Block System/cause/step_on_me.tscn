@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dru1ygt3posr3"]
+
+[ext_resource type="Script" uid="uid://cl47p2medpjwy" path="res://main/Block System/cause/step_on_me.gd" id="1_i0j6q"]
+[ext_resource type="Texture2D" uid="uid://dudttrninvu7x" path="res://main/PNG/Good Button.png" id="2_jv6or"]
+
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0eu6d"]
+
+[node name="Step on me" type="Area2D"]
+script = ExtResource("1_i0j6q")
+
+[node name="GoodButton" type="Sprite2D" parent="."]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_jv6or")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_0eu6d")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
