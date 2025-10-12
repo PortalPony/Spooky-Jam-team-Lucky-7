@@ -2,9 +2,10 @@ extends Area2D
 
 var switch = false
 
+var amount = 1
 func _process(delta: float) -> void:
 	if switch:
-		$"..".action(1*delta) 
+		$"..".action(amount) 
 
 
 func _on_body_entered(body: Node2D) -> void:
