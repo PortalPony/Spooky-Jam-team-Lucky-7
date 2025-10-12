@@ -1,11 +1,11 @@
 extends CharacterBody2D
+@export var target = Node2D
 
 
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+func _physics_process(delta: float) -> void:
+	velocity = Vector2.ZERO
+	if target:
+		look_at(target.global_position)
+		position += Vector2.RIGHT.rotated(rotation) * 100 * delta
+		move_and_slide()
+		pass
