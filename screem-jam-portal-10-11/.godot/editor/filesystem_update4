@@ -1,4 +1,5 @@
-res://main/scripts/weeping_angel.gd
-res://main/main_scene.tscn
+
 res://main/flashlight_scene_im.tscn
+res://main/scripts/weeping_angel.gd
 res://main/full_human_player.tscn
+

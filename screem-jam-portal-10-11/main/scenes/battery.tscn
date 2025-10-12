@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dko3mm3vird2b"]
+
+[ext_resource type="PackedScene" uid="uid://fqfao71jbfpq" path="res://main/Block System/effect/Add_to_Autobus.tscn" id="1_a6o13"]
+[ext_resource type="PackedScene" uid="uid://dru1ygt3posr3" path="res://main/Block System/cause/step_on_me.tscn" id="2_nesfx"]
+
+[node name="Battery" type="Node2D"]
+
+[node name="AddToAutobus" parent="." instance=ExtResource("1_a6o13")]
+thing = null
+
+[node name="Step on me" parent="AddToAutobus" instance=ExtResource("2_nesfx")]
+position = Vector2(2, -4)

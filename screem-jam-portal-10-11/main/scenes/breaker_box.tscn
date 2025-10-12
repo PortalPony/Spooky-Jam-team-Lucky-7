@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0xdavqccvqvs"]
+
+[ext_resource type="PackedScene" uid="uid://fqfao71jbfpq" path="res://main/Block System/effect/Add_to_Autobus.tscn" id="1_hk8yx"]
+[ext_resource type="PackedScene" uid="uid://csxhj8hprx8lc" path="res://main/Block System/cause/tappy.tscn" id="1_tidtp"]
+
+[node name="Breaker box" type="Node2D"]
+
+[node name="AddToAutobus" parent="." instance=ExtResource("1_hk8yx")]
+
+[node name="Tappy" parent="AddToAutobus" instance=ExtResource("1_tidtp")]
+position = Vector2(3, 11)

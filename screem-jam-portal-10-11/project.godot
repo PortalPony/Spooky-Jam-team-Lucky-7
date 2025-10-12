@@ -15,9 +15,7 @@ run/main_scene="uid://dgnrwisyxeas3"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
-[global_group]
 
-navigation_polygon_source_geometry_group=""
 
 [input]
 
