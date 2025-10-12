@@ -1,12 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://n8cuvewwtsia"]
+[gd_scene load_steps=7 format=3 uid="uid://n8cuvewwtsia"]
 
 [ext_resource type="Script" uid="uid://ctjvoyd66bv46" path="res://main/scripts/full_human_player.gd" id="1_78epi"]
 [ext_resource type="Texture2D" uid="uid://niidnijw0t3w" path="res://main/PNG/png/Charactors/FULL HUAMAN/legs  FULL HUAMN.png" id="2_b1bpy"]
 [ext_resource type="Script" uid="uid://dr5as6q2jyc8g" path="res://main/scripts/legs_look_at.gd" id="3_b1bpy"]
 [ext_resource type="Texture2D" uid="uid://cuqlv3ak5pkjb" path="res://main/PNG/png/Charactors/FULL HUAMAN/FULL HUAMN no legs.png" id="3_smff5"]
-[ext_resource type="PackedScene" uid="uid://bga78dp2g2cj0" path="res://main/lc_weapon_base.tscn" id="5_oubm0"]
 [ext_resource type="PackedScene" uid="uid://co5w8obg657sa" path="res://main/flashlight_scene_im.tscn" id="6_bi7sy"]
-[ext_resource type="PackedScene" uid="uid://b4j0ceow51e6k" path="res://main/scenes/ui.tscn" id="7_neljr"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_cund8"]
 radius = 26.019224
@@ -31,23 +29,16 @@ texture = ExtResource("3_smff5")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="LC Weapon Base" parent="." instance=ExtResource("5_oubm0")]
-position = Vector2(83, 3)
-rotation = 2.92749
-player = true
-ranged = true
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_cund8")
 
 [node name="Flashlight scene IM" parent="." instance=ExtResource("6_bi7sy")]
-position = Vector2(100, 10)
+position = Vector2(35, 14)
 scale = Vector2(1, 1)
 
 [node name="PointLight2D" parent="Flashlight scene IM" index="0"]
-position = Vector2(54.000008, -2.0000005)
-scale = Vector2(17.75647, 11.124323)
-
-[node name="UI" parent="." instance=ExtResource("7_neljr")]
+position = Vector2(50, 0.99999994)
+rotation = -1.5707964
+scale = Vector2(159.619, 100)
 
 [editable path="Flashlight scene IM"]
