@@ -1,14 +1,15 @@
 63f7b34db8d8cdea90c76aacccf841ec
 ::res://::1760279385
 icon.svg::CompressedTexture2D::1867933635168428132::1760277293::1760277378::1::::<><><>0<>0<>e34539c72ef1b3ce511cbb5e6e78d3d7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://main/::1760282756
+::res://main/::1760286044
 door.tscn::PackedScene::8226842324528451606::1760279385::0::1::::<><><>0<>0<><>::uid://caqonjw3bm8f4::::res://main/Block System/effect/rotate_parent.tscn<>uid://dnlo2ymwj6vsb::::res://main/PNG/Door Gray.png<>uid://bg6ocfwyj2du8::::res://main/Block System/cause/press_me.tscn
+enemys.tscn::PackedScene::1278598390755999101::1760285159::0::1::::<><><>0<>0<><>::uid://c8rn6d6gk4k3y::::res://main/scripts/weeping_angel.gd<>uid://1u3ug0bm4h7a::::res://icon.svg
 erin's_art_tile_map.tscn::PackedScene::689173472169517991::1760279385::0::1::::<><><>0<>0<><>::uid://47hohp2f762y::::res://main/PNG/IM Erin's art/floor_sheet.webp<>uid://byn2lp3pa0c41::::res://main/PNG/IM Erin's art/decor.png
-flashlight_scene_im.tscn::PackedScene::5818811953167134660::1760282390::0::1::::<><><>0<>0<><>::
-full_human_player.tscn::PackedScene::980737693241341712::1760282464::0::1::::<><><>0<>0<><>::uid://ctjvoyd66bv46::::res://main/scripts/full_human_player.gd<>uid://niidnijw0t3w::::res://main/PNG/png/Charactors/FULL HUAMAN/legs  FULL HUAMN.png<>uid://dr5as6q2jyc8g::::res://main/scripts/legs_look_at.gd<>uid://cuqlv3ak5pkjb::::res://main/PNG/png/Charactors/FULL HUAMAN/FULL HUAMN no legs.png<>uid://bga78dp2g2cj0::::res://main/lc_weapon_base.tscn<>uid://co5w8obg657sa::::res://main/flashlight_scene_im.tscn
+flashlight_scene_im.tscn::PackedScene::5818811953167134660::1760284149::0::1::::<><><>0<>0<><>::uid://drvikjc8i7yvw::::res://main/scripts/flashlight.gd<>uid://c5186uledofno::::res://main/IM_Flashlight.png
+full_human_player.tscn::PackedScene::980737693241341712::1760285126::0::1::::<><><>0<>0<><>::uid://ctjvoyd66bv46::::res://main/scripts/full_human_player.gd<>uid://niidnijw0t3w::::res://main/PNG/png/Charactors/FULL HUAMAN/legs  FULL HUAMN.png<>uid://dr5as6q2jyc8g::::res://main/scripts/legs_look_at.gd<>uid://cuqlv3ak5pkjb::::res://main/PNG/png/Charactors/FULL HUAMAN/FULL HUAMN no legs.png<>uid://co5w8obg657sa::::res://main/flashlight_scene_im.tscn
 IM_Flashlight.png::CompressedTexture2D::6934240586151231548::1760282756::1760282757::1::::<><><>0<>0<>e2f341802f05cbdb25c6f8002514ecf3<>res://.godot/imported/IM_Flashlight.png-6c82c62aee1a4077e91477e78448b6f3.ctex::
-lc_weapon_base.tscn::PackedScene::2809555802466638763::1760279385::0::1::::<><><>0<>0<><>::uid://drx4nxdgqb3y6::::res://main/scripts/LC_Gun_Base.gd
-main_scene.tscn::PackedScene::7608303949167836560::1760282438::0::1::::<><><>0<>0<><>::uid://dphe5ke52ej4i::::res://main/door.tscn<>uid://1u3ug0bm4h7a::::res://icon.svg<>uid://df75fiop06k7i::::res://main/wall.tscn<>uid://n8cuvewwtsia::::res://main/full_human_player.tscn<>uid://47hohp2f762y::::res://main/PNG/IM Erin's art/floor_sheet.webp<>uid://byn2lp3pa0c41::::res://main/PNG/IM Erin's art/decor.png<>uid://shmlf73sc00x::::res://main/scripts/character_body_2d.tscn
+Light.png::CompressedTexture2D::5696597597824917520::1760286044::1760286044::1::::<><><>0<>0<>036b9f21cb9fc49bb7f97ff6b628c1b6<>res://.godot/imported/Light.png-4236dd33cb5740ece7ea6aed0bb99272.ctex::
+main_scene.tscn::PackedScene::7608303949167836560::1760285880::0::1::::<><><>0<>0<><>::uid://dphe5ke52ej4i::::res://main/door.tscn<>uid://1u3ug0bm4h7a::::res://icon.svg<>uid://df75fiop06k7i::::res://main/wall.tscn<>uid://n8cuvewwtsia::::res://main/full_human_player.tscn<>uid://47hohp2f762y::::res://main/PNG/IM Erin's art/floor_sheet.webp<>uid://byn2lp3pa0c41::::res://main/PNG/IM Erin's art/decor.png<>uid://shmlf73sc00x::::res://main/enemys.tscn
 wall.tscn::PackedScene::7578097238682130136::1760282149::0::1::::<><><>0<>0<><>::uid://1u3ug0bm4h7a::::res://icon.svg<>uid://bucefqe32taqv::::res://main/PNG/Basic Wall 1.png
 ::res://main/Block System/::1760277293
 ::res://main/Block System/cause/::1760279385
@@ -58,9 +59,8 @@ red dot bad.png::CompressedTexture2D::4579550241369412070::1760277293::176027938
 FULL HUAMN no legs.png::CompressedTexture2D::6210355143953089907::1760277293::1760279385::1::::<><><>0<>0<>58c3dececbcd0cef444994ad0a69dfdb<>res://.godot/imported/FULL HUAMN no legs.png-7a8e26fa1fc22e94ed1b67032da612d5.ctex::
 FULL HUAMN.png::CompressedTexture2D::5477271914858501589::1760277293::1760279385::1::::<><><>0<>0<>04394ca087b503b1346706e6be170a36<>res://.godot/imported/FULL HUAMN.png-5699bff66fd5f7af9209eabef39861cd.ctex::
 legs  FULL HUAMN.png::CompressedTexture2D::929461778252056546::1760277293::1760279385::1::::<><><>0<>0<>9374883fef550346f23482f6dc8fdba7<>res://.godot/imported/legs  FULL HUAMN.png-91fe7fbdaaf52eae47bd777057edafd6.ctex::
-::res://main/scripts/::1760280243
-character_body_2d.tscn::PackedScene::1278598390755999101::1760279736::0::1::::<><><>0<>0<><>::uid://c8rn6d6gk4k3y::::res://main/scripts/weeping_angel.gd<>uid://1u3ug0bm4h7a::::res://icon.svg
+::res://main/scripts/::1760285214
+flashlight.gd::GDScript::8396328396953395680::1760284149::0::1::::<>Node2D<><>0<>0<><>::
 full_human_player.gd::GDScript::6126310120902925541::1760277882::0::1::::<>CharacterBody2D<><>0<>0<><>::
-LC_Gun_Base.gd::GDScript::8401738302345752647::1760277882::0::1::::<>Node2D<><>0<>0<><>::
 legs_look_at.gd::GDScript::8414437524018390432::1760277938::0::1::::<>Sprite2D<><>0<>0<><>::
-weeping_angel.gd::GDScript::7125012515523418368::1760280243::0::1::::<>CharacterBody2D<><>0<>0<><>::
+weeping_angel.gd::GDScript::7125012515523418368::1760285907::0::1::::<>CharacterBody2D<><>0<>0<><>::

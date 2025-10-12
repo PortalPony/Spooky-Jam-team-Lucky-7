@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://co5w8obg657sa"]
 
 [ext_resource type="Script" uid="uid://drvikjc8i7yvw" path="res://main/scripts/flashlight.gd" id="1_2uiyh"]
-[ext_resource type="Texture2D" uid="uid://c5186uledofno" path="res://main/IM_Flashlight.png" id="1_hdy28"]
+[ext_resource type="Texture2D" uid="uid://cnfqeopr68qds" path="res://main/Light.png" id="2_2uiyh"]
 
 [node name="Flashlight scene IM" type="Node2D"]
 scale = Vector2(0.5, 0.5)
@@ -16,5 +16,5 @@ blend_mode = 2
 range_z_max = 1
 range_layer_max = 19
 shadow_enabled = true
-texture = ExtResource("1_hdy28")
+texture = ExtResource("2_2uiyh")
 texture_scale = 0.03

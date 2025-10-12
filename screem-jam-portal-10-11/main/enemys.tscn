@@ -23,3 +23,12 @@ script = ExtResource("1_ak62p")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_u1t16")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+path_desired_distance = 4.0
+target_desired_distance = 4.0
+avoidance_enabled = true
+radius = 16.0
+neighbor_distance = 10.0
+debug_enabled = true
+debug_path_custom_color = Color(1, 0, 0, 1)
