@@ -6,7 +6,8 @@
 [node name="Battery" type="Node2D"]
 
 [node name="AddToAutobus" parent="." instance=ExtResource("1_a6o13")]
-thing = null
+thing = "batteries"
+oneShot = true
 
 [node name="Step on me" parent="AddToAutobus" instance=ExtResource("2_nesfx")]
 position = Vector2(2, -4)

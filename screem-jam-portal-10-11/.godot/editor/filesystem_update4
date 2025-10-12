@@ -8,3 +8,7 @@ res://main/scripts/Inventory.gd
 res://main/main_scene.tscn
 res://main/scenes/breaker_box.tscn
 res://main/wall.tscn
+res://main/scripts/show_batteries.gd
+res://main/scenes/battery.tscn
+res://main/scenes/ui.tscn
+res://main/Block System/cause/step_on_me.gd

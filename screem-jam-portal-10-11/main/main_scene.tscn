@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://dgnrwisyxeas3"]
+[gd_scene load_steps=12 format=4 uid="uid://dgnrwisyxeas3"]
 
 [ext_resource type="PackedScene" uid="uid://dphe5ke52ej4i" path="res://main/door.tscn" id="1_g5v5e"]
 [ext_resource type="Texture2D" uid="uid://1u3ug0bm4h7a" path="res://icon.svg" id="2_vctft"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://47hohp2f762y" path="res://main/PNG/IM Erin's art/floor_sheet.webp" id="5_h14ac"]
 [ext_resource type="Texture2D" uid="uid://byn2lp3pa0c41" path="res://main/PNG/IM Erin's art/decor.png" id="6_8stfj"]
 [ext_resource type="PackedScene" uid="uid://shmlf73sc00x" path="res://main/scripts/character_body_2d.tscn" id="7_vtfip"]
+[ext_resource type="PackedScene" uid="uid://dko3mm3vird2b" path="res://main/scenes/battery.tscn" id="8_ncflg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6wq6w"]
 texture = ExtResource("5_h14ac")
@@ -84,4 +85,8 @@ position = Vector2(684, 135)
 target = NodePath("../FULL Human Player")
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
+position = Vector2(5, 0)
 color = Color(0, 0, 0, 1)
+
+[node name="Battery" parent="." instance=ExtResource("8_ncflg")]
+position = Vector2(314, -24)
