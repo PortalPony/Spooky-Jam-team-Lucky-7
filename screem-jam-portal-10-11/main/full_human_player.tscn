@@ -40,4 +40,11 @@ ranged = true
 shape = SubResource("CircleShape2D_cund8")
 
 [node name="Flashlight scene IM" parent="." instance=ExtResource("6_bi7sy")]
-position = Vector2(165, 10)
+position = Vector2(100, 10)
+scale = Vector2(1, 1)
+
+[node name="PointLight2D" parent="Flashlight scene IM" index="0"]
+position = Vector2(36, -6)
+scale = Vector2(102.07245, 48.541664)
+
+[editable path="Flashlight scene IM"]

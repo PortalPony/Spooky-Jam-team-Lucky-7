@@ -1,21 +1,24 @@
 [gd_scene load_steps=3 format=3 uid="uid://co5w8obg657sa"]
 
 [sub_resource type="Gradient" id="Gradient_i0gf1"]
+interpolation_mode = 1
 colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 0)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_hdy28"]
 gradient = SubResource("Gradient_i0gf1")
 fill = 1
-fill_from = Vector2(0.50934577, 0.46261683)
-fill_to = Vector2(0.1495327, 0.12616822)
+fill_from = Vector2(0.50934577, 0.5233645)
+fill_to = Vector2(0.1495327, 0.1495327)
 
 [node name="Flashlight scene IM" type="Node2D"]
 scale = Vector2(0.5, 0.5)
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
-position = Vector2(-3.9999695, -2)
-scale = Vector2(223.24622, 121.249985)
-energy = 4.0
+scale = Vector2(67.686554, 35.624996)
+energy = 4.42
+blend_mode = 2
+range_z_max = 1
+range_layer_max = 19
 shadow_enabled = true
 texture = SubResource("GradientTexture2D_hdy28")
-texture_scale = 0.05
+texture_scale = 0.03
