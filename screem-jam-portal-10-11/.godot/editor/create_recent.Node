@@ -1,6 +1,7 @@
+LightOccluder2D
+Sprite2D
 AnimatedSprite2D
 CharacterBody2D
 TileMapLayer
-LightOccluder2D
 PointLight2D
 CanvasModulate

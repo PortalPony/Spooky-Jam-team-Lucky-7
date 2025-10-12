@@ -1,11 +1,13 @@
-[gd_scene load_steps=4 format=3 uid="uid://df75fiop06k7i"]
+[gd_scene load_steps=5 format=3 uid="uid://df75fiop06k7i"]
 
 [ext_resource type="Texture2D" uid="uid://1u3ug0bm4h7a" path="res://icon.svg" id="1_diet6"]
 [ext_resource type="Texture2D" uid="uid://bucefqe32taqv" path="res://main/PNG/Basic Wall 1.png" id="2_i83gs"]
 
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i83gs"]
 size = Vector2(98, 204)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_hrva8"]
+polygon = PackedVector2Array(94, 28, 96, 200, 1, 205, 1, 0, 99, 2)
 
 [node name="Wall" type="StaticBody2D"]
 
@@ -22,3 +24,6 @@ texture = ExtResource("1_diet6")
 position = Vector2(49.00001, 104.50001)
 scale = Vector2(1.0937501, 1.2539063)
 texture = ExtResource("2_i83gs")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="."]
+occluder = SubResource("OccluderPolygon2D_hrva8")
