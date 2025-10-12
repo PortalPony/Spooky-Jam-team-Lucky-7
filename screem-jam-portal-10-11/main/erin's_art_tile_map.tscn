@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=3 uid="uid://j23t640uefvj"]
+
+[ext_resource type="Texture2D" uid="uid://47hohp2f762y" path="res://main/PNG/IM Erin's art/floor_sheet.webp" id="1_atvfy"]
+[ext_resource type="Texture2D" uid="uid://byn2lp3pa0c41" path="res://main/PNG/IM Erin's art/decor.png" id="2_356fo"]
+
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a8ts0"]
+texture = ExtResource("1_atvfy")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_71p2g"]
+texture = ExtResource("2_356fo")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+3:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_2p8t7"]
+sources/0 = SubResource("TileSetAtlasSource_a8ts0")
+sources/1 = SubResource("TileSetAtlasSource_71p2g")
+
+[node name="Erin\'s Art TileMap" type="TileMap"]
+scale = Vector2(3, 3)
+tile_set = SubResource("TileSet_2p8t7")
+format = 2
