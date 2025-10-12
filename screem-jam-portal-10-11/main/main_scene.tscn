@@ -77,9 +77,6 @@ position = Vector2(1195, 399.00006)
 scale = Vector2(40.242413, 31.526308)
 texture = ExtResource("2_vctft")
 
-[node name="FULL Human Player" parent="." instance=ExtResource("4_vctft")]
-position = Vector2(275, 117)
-
 [node name="Door" parent="." instance=ExtResource("1_g5v5e")]
 position = Vector2(1, 3)
 
@@ -89,7 +86,6 @@ tile_map_data = PackedByteArray("AADH/1YAAAADAAAAADDI/1YAAAACAAEAAADJ/1YAAAACAAE
 tile_set = SubResource("TileSet_t8whk")
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-visible = false
 color = Color(0, 0, 0, 1)
 
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="." groups=["navigation_polygon_source_geometry_group"]]
@@ -112,3 +108,6 @@ position = Vector2(1134, -232)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
 position = Vector2(-27, 101)
 shape = SubResource("RectangleShape2D_vtfip")
+
+[node name="FULL Human Player" parent="." instance=ExtResource("4_vctft")]
+position = Vector2(211, 115)
