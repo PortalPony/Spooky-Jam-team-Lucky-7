@@ -8,6 +8,6 @@ extends Node2D
 func action(amount: int):
 	# Get the current value of Inventory[thing] and add amount
 	Inventory.set(thing, Inventory.get(thing) + amount)
-	print_debug(Inventory.get(thing))
 	if oneShot:
-		queue_free()
+		
+		$"..".queue_free()

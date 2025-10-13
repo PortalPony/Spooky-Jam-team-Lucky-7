@@ -1,7 +1,29 @@
-res://main/scripts/weeping_angel.gd
+
 res://main/main_scene.tscn
-res://main/flashlight_scene_im.tscn
+res://main/scenes/auto_bus_lighting.tscn
+res://auto_bus_lighting.gd
 res://main/full_human_player.tscn
-res://main/scripts/full_human_player.gd
+
+res://main/scripts/auto_bus_lighting.gd
 res://main/scripts/Inventory.gd
-res://main/door.tscn
+res://main/scenes/ui.tscn
+res://main/scripts/show_breakBox.gd
+res://main/Block System/effect/kill_parent.gd
+res://main/Block System/effect/kill_parent.tscn
+res://main/enemys.tscn
+res://main/Block System/cause/step_on_me.tscn
+res://main/Block System/cause/step_on_me.gd
+res://main/scripts/show_batteries.gd
+res://main/show_hp.gd
+res://main/Block System/Spawners/instance Timer.gd
+res://main/Block System/Spawners/instance.gd
+res://main/Block System/Spawners/instance Timer.tscn
+res://main/scenes/battery.tscn
+res://main/scenes/breaker_box.tscn
+res://main/Block System/cause/tappy.gd
+res://main/Block System/effect/add_to_autobus.gd
+res://main/game_over.tscn
+res://main/scripts/show_batteriesLife.gd
+res://main/scripts/auto_bus_flishlighting.gd
+res://main/scripts/flashlight.gd
+

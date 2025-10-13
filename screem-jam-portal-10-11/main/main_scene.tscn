@@ -1,12 +1,15 @@
-[gd_scene load_steps=13 format=4 uid="uid://dgnrwisyxeas3"]
+[gd_scene load_steps=16 format=4 uid="uid://dgnrwisyxeas3"]
 
 [ext_resource type="PackedScene" uid="uid://dphe5ke52ej4i" path="res://main/door.tscn" id="1_g5v5e"]
+[ext_resource type="PackedScene" uid="uid://bd4u5ua1knwmo" path="res://main/scenes/auto_bus_lighting.tscn" id="1_mhk4r"]
 [ext_resource type="Texture2D" uid="uid://1u3ug0bm4h7a" path="res://icon.svg" id="2_vctft"]
 [ext_resource type="PackedScene" uid="uid://df75fiop06k7i" path="res://main/wall.tscn" id="3_h14ac"]
 [ext_resource type="PackedScene" uid="uid://n8cuvewwtsia" path="res://main/full_human_player.tscn" id="4_vctft"]
 [ext_resource type="Texture2D" uid="uid://47hohp2f762y" path="res://main/PNG/IM Erin's art/floor_sheet.webp" id="5_h14ac"]
 [ext_resource type="Texture2D" uid="uid://byn2lp3pa0c41" path="res://main/PNG/IM Erin's art/decor.png" id="6_8stfj"]
-[ext_resource type="PackedScene" uid="uid://shmlf73sc00x" path="res://main/enemys.tscn" id="7_vtfip"]
+[ext_resource type="PackedScene" uid="uid://c5b1r25vtr3fh" path="res://main/enemys.tscn" id="7_vtfip"]
+[ext_resource type="Texture2D" uid="uid://dudttrninvu7x" path="res://main/PNG/Good Button.png" id="9_mhk4r"]
+[ext_resource type="PackedScene" uid="uid://cqvapuwla6ivx" path="res://main/Block System/Spawners/instance Timer.tscn" id="10_rmejh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6wq6w"]
 texture = ExtResource("5_h14ac")
@@ -50,6 +53,30 @@ source_geometry_mode = 1
 size = Vector2(320, 259)
 
 [node name="Main Scene" type="Node2D"]
+
+[node name="spawners" type="Node2D" parent="."]
+
+[node name="breaker spawner" parent="spawners" instance=ExtResource("10_rmejh")]
+position = Vector2(1117, 27)
+spawn = "res://main/scenes/breaker_box.tscn"
+
+[node name="instance Timer" parent="spawners" instance=ExtResource("10_rmejh")]
+position = Vector2(209, 13)
+
+[node name="Timer" parent="spawners/instance Timer" index="0"]
+wait_time = 5.0
+
+[node name="GoodButton" type="Sprite2D" parent="."]
+position = Vector2(949.71515, -256.46048)
+scale = Vector2(1.6605918, 1.3212739)
+texture = ExtResource("9_mhk4r")
+offset = Vector2(105.89032, 107.91368)
+
+[node name="GoodButton2" type="Sprite2D" parent="."]
+position = Vector2(928.71515, 86.53949)
+scale = Vector2(1.6605918, 1.3212739)
+texture = ExtResource("9_mhk4r")
+offset = Vector2(105.89032, 107.91368)
 
 [node name="Wall" parent="." instance=ExtResource("3_h14ac")]
 position = Vector2(-100, -884)
@@ -111,3 +138,8 @@ shape = SubResource("RectangleShape2D_vtfip")
 
 [node name="FULL Human Player" parent="." instance=ExtResource("4_vctft")]
 position = Vector2(211, 115)
+
+[node name="AutoBus Lighting" parent="." instance=ExtResource("1_mhk4r")]
+
+[editable path="spawners/breaker spawner"]
+[editable path="spawners/instance Timer"]

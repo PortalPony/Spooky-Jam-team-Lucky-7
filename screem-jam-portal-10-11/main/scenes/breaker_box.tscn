@@ -6,6 +6,8 @@
 [node name="Breaker box" type="Node2D"]
 
 [node name="AddToAutobus" parent="." instance=ExtResource("1_hk8yx")]
+oneShot = true
 
 [node name="Tappy" parent="AddToAutobus" instance=ExtResource("1_tidtp")]
 position = Vector2(3, 11)
+amount = 5
