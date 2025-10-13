@@ -3,10 +3,11 @@
 [ext_resource type="PackedScene" uid="uid://dphe5ke52ej4i" path="res://main/door.tscn" id="1_g5v5e"]
 [ext_resource type="Texture2D" uid="uid://1u3ug0bm4h7a" path="res://icon.svg" id="2_vctft"]
 [ext_resource type="PackedScene" uid="uid://df75fiop06k7i" path="res://main/wall.tscn" id="3_h14ac"]
-[ext_resource type="PackedScene" uid="uid://n8cuvewwtsia" path="res://main/full_human_player.tscn" id="4_vctft"]
+[ext_resource type="PackedScene" path="res://main/full_human_player.tscn" id="4_vctft"]
 [ext_resource type="Texture2D" uid="uid://47hohp2f762y" path="res://main/PNG/IM Erin's art/floor_sheet.webp" id="5_h14ac"]
 [ext_resource type="Texture2D" uid="uid://byn2lp3pa0c41" path="res://main/PNG/IM Erin's art/decor.png" id="6_8stfj"]
-[ext_resource type="PackedScene" uid="uid://shmlf73sc00x" path="res://main/enemys.tscn" id="7_vtfip"]
+[ext_resource type="PackedScene" path="res://main/enemys.tscn" id="7_vtfip"]
+
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6wq6w"]
 texture = ExtResource("5_h14ac")

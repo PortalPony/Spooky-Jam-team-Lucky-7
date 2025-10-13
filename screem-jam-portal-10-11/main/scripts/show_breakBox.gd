@@ -2,4 +2,4 @@ extends Label
 
 func _process(delta: float) -> void:
 	text =str("%", Inventory.breakerBox, "   Breaker Box")
-	print_debug(Inventory.breakerBox)
+	
