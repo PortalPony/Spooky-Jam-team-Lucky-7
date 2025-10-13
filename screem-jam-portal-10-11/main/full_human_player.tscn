@@ -1,14 +1,32 @@
-[gd_scene load_steps=5 format=3 uid="uid://n8cuvewwtsia"]
+[gd_scene load_steps=9 format=3 uid="uid://n8cuvewwtsia"]
 
 [ext_resource type="Script" uid="uid://ctjvoyd66bv46" path="res://main/scripts/full_human_player.gd" id="1_78epi"]
+[ext_resource type="PackedScene" uid="uid://ck08oafd3n0t6" path="res://main/Block System/effect/kill_parent.tscn" id="2_bi7sy"]
 [ext_resource type="Texture2D" uid="uid://bg4hmcjuujgo6" path="res://main/Electrician.png" id="2_ncjga"]
+[ext_resource type="PackedScene" uid="uid://dru1ygt3posr3" path="res://main/Block System/cause/step_on_me.tscn" id="3_neljr"]
+[ext_resource type="PackedScene" uid="uid://b4j0ceow51e6k" path="res://main/scenes/ui.tscn" id="4_5la21"]
 [ext_resource type="PackedScene" uid="uid://co5w8obg657sa" path="res://main/flashlight_scene_im.tscn" id="6_bi7sy"]
+[ext_resource type="Script" uid="uid://b71h3pk6h0yi6" path="res://main/show_hp.gd" id="7_neljr"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_cund8"]
 radius = 26.019224
 
 [node name="FULL Human Player" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_78epi")
+
+[node name="kill Parent" parent="." instance=ExtResource("2_bi7sy")]
+changeScene = true
+
+[node name="Step on me" parent="kill Parent" instance=ExtResource("3_neljr")]
+scale = Vector2(4.455443, 4.455443)
+collision_layer = 2
+collision_mask = 2
+
+[node name="GoodButton" parent="kill Parent/Step on me" index="0"]
+visible = false
+
+[node name="CollisionShape2D" parent="kill Parent/Step on me" index="1"]
+position = Vector2(-0.22444442, 0.22444458)
 
 [node name="FullHuamnNoLegs" type="Sprite2D" parent="."]
 position = Vector2(-0.38384816, 16.999996)
@@ -29,4 +47,12 @@ position = Vector2(-3.383854, 103)
 rotation = 0.0
 scale = Vector2(159.617, 100)
 
+[node name="UI" parent="." instance=ExtResource("4_5la21")]
+
+[node name="Show hp" type="Label" parent="UI/HBoxContainer/VBoxContainer" index="2"]
+layout_mode = 2
+script = ExtResource("7_neljr")
+
+[editable path="kill Parent/Step on me"]
 [editable path="Flashlight scene IM"]
+[editable path="UI"]

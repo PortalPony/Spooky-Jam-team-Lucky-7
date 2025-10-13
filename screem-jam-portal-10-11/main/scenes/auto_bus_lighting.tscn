@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bd4u5ua1knwmo"]
+
+[ext_resource type="Script" uid="uid://bw3vtu16wvw8c" path="res://main/scripts/auto_bus_lighting.gd" id="1_ogxub"]
+
+[node name="AutoBus Lighting" type="DirectionalLight2D"]
+script = ExtResource("1_ogxub")

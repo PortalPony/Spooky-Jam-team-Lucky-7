@@ -4,6 +4,7 @@ extends Area2D
 var here = false
 
 @export var amount = 1
+
 func _process(delta: float) -> void:
 	if here:
 		if Input.is_action_just_pressed("action"):
