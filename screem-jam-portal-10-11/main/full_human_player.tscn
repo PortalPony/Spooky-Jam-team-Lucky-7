@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://n8cuvewwtsia"]
+[gd_scene load_steps=9 format=3 uid="uid://n8cuvewwtsia"]
 
 [ext_resource type="Script" uid="uid://ctjvoyd66bv46" path="res://main/scripts/full_human_player.gd" id="1_78epi"]
 [ext_resource type="PackedScene" uid="uid://ck08oafd3n0t6" path="res://main/Block System/effect/kill_parent.tscn" id="2_bi7sy"]
@@ -7,7 +7,6 @@
 [ext_resource type="PackedScene" uid="uid://b4j0ceow51e6k" path="res://main/scenes/ui.tscn" id="4_5la21"]
 [ext_resource type="PackedScene" uid="uid://co5w8obg657sa" path="res://main/flashlight_scene_im.tscn" id="6_bi7sy"]
 [ext_resource type="Script" uid="uid://djhhpb13bjdu" path="res://main/scripts/flash_light_attack.gd" id="6_tkg5m"]
-[ext_resource type="Script" uid="uid://b71h3pk6h0yi6" path="res://main/show_hp.gd" id="7_neljr"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_cund8"]
 radius = 26.019224
@@ -57,10 +56,8 @@ polygon = PackedVector2Array(-9.000006, 54.000004, 0.9999943, 55.000004, 89.9999
 
 [node name="UI" parent="." instance=ExtResource("4_5la21")]
 
-[node name="Show hp" type="Label" parent="UI/HBoxContainer/VBoxContainer" index="2" node_paths=PackedStringArray("kill_parent")]
-layout_mode = 2
-script = ExtResource("7_neljr")
-kill_parent = NodePath("../../../../kill Parent")
+[node name="Show hp" parent="UI/HBoxContainer" index="2" node_paths=PackedStringArray("kill_parent")]
+kill_parent = NodePath("../../../kill Parent")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 visible = false

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://rd54ayahsc58"
+path="res://.godot/imported/Lights_On_Theme_v01 (looped3x).mp3-716833744ae824be0b84303a9fa77334.mp3str"
+
+[deps]
+
+source_file="res://main/Audio-20251013T182145Z-1-001/Audio/Lights_On_Theme_v01 (looped3x).mp3"
+dest_files=["res://.godot/imported/Lights_On_Theme_v01 (looped3x).mp3-716833744ae824be0b84303a9fa77334.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

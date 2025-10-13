@@ -41,3 +41,5 @@ debug_path_custom_color = Color(1, 0, 0, 1)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 2)
 shape = SubResource("RectangleShape2D_016ox")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]

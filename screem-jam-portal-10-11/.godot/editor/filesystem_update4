@@ -1,0 +1,6 @@
+res://main/main_scene.tscn
+res://main/scripts/main.gd
+res://main/game_over.tscn
+res://main/enemys.tscn
+res://main/scenes/main_menu.tscn
+res://main/scenes/main_menu.gdshader
