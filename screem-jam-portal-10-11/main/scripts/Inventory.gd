@@ -2,9 +2,9 @@
 extends Node
 
 
-var breakerBox = 10
+var breakerBox := 0.00
 
-var batteries = 0
+var batteries := 0
 
 func _process(delta: float) -> void:
 	if breakerBox > 101:

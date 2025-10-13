@@ -9,6 +9,5 @@ func action(amount):
 	
 	if hp <=0:
 		
-		$"..".queue_free()
 		if changeScene:
 			get_tree().change_scene_to_file("res://main/game_over.tscn")

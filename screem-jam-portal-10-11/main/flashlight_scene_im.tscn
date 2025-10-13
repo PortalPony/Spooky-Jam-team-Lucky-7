@@ -8,8 +8,9 @@ scale = Vector2(0.5, 0.5)
 script = ExtResource("1_2uiyh")
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(42.87182, 163.52069)
 rotation = 1.5707964
-scale = Vector2(67.686554, 35.624996)
+scale = Vector2(8.916664, 3.6794891)
 color = Color(1, 1, 1, 0.6117647)
 energy = 4.42
 blend_mode = 2
@@ -17,4 +18,3 @@ range_z_max = 1
 range_layer_max = 19
 shadow_enabled = true
 texture = ExtResource("2_2uiyh")
-texture_scale = 0.03

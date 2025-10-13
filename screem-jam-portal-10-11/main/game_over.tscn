@@ -1,10 +1,60 @@
-[gd_scene format=3 uid="uid://g2sq2siers6g"]
+[gd_scene load_steps=5 format=3 uid="uid://g2sq2siers6g"]
 
-[node name="GameOver" type="Node2D"]
+[ext_resource type="Script" uid="uid://cvivg4dwboab5" path="res://main/scripts/game_over.gd" id="1_g410v"]
+[ext_resource type="FontFile" uid="uid://c12sw5wth2jtj" path="res://main/BBH_Sans_Bogle,Jersey_15,Oswald,Pixelify_Sans,Press_Start_2P/Oswald/static/Oswald-Bold.ttf" id="1_hd263"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_g410v"]
+font = ExtResource("1_hd263")
+font_size = 128
+outline_size = 18
+outline_color = Color(1, 0, 0, 1)
+shadow_size = 50
+shadow_color = Color(0, 0, 0, 0.8627451)
+stacked_outline_count = 1
+stacked_outline_0/size = 19
+
+[sub_resource type="LabelSettings" id="LabelSettings_bottq"]
+font = ExtResource("1_hd263")
+font_size = 65
+outline_size = 18
+outline_color = Color(1, 0, 0, 1)
+shadow_size = 50
+shadow_color = Color(0, 0, 0, 0.8627451)
+stacked_outline_count = 1
+stacked_outline_0/size = 19
+
+[node name="GameOver" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_g410v")
 
 [node name="Label" type="Label" parent="."]
-offset_left = 468.0
-offset_top = 265.0
-offset_right = 560.0
-offset_bottom = 288.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.23958333
+anchor_top = 0.35339507
+anchor_right = 0.7604167
+anchor_bottom = 0.64660496
+offset_top = -1.5258789e-05
+grow_horizontal = 2
+grow_vertical = 2
 text = "GAME OVER"
+label_settings = SubResource("LabelSettings_g410v")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.296875
+anchor_top = 0.6126543
+anchor_right = 0.6875
+anchor_bottom = 0.7623457
+grow_horizontal = 2
+grow_vertical = 2
+text = "press 'r' to retart"
+label_settings = SubResource("LabelSettings_bottq")
+metadata/_edit_use_anchors_ = true

@@ -1,11 +1,11 @@
 extends CharacterBody2D
 @export var target: = Node2D
 @onready var navigation_agent_2d: NavigationAgent2D = $NavigationAgent2D
-
+var yorn := true
 
 func _physics_process(delta: float) -> void:
 
-	if target:
+	if target and yorn:
 		navigation_agent_2d.set_target_position(target.global_position)
 		
 		if navigation_agent_2d.is_navigation_finished():
