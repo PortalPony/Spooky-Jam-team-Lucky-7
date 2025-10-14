@@ -1,31 +1,41 @@
 extends Node2D
+@onready var timer: Timer = $Timer
 
+var current
+@export var spawn_scene:PackedScene
 
-@export var spawn : String = "res://main/scenes/battery.tscn"
-
-
-
-var instance
-#var amountSpawned = 5
-var scene 
+var hasnode = false
+@export var time: float
+ 
 
 func _ready() -> void:
-	scene = load(spawn)
+	spawn()
+
 
 
 func _process(_delta: float) -> void:
-	
-	if get_child_count() >= 2:
-		$Timer.paused = true
-		
-	else:
-		$Timer.paused = false
-		
-func _on_timer_timeout() -> void:
-	instance = scene.instantiate()
 
-	#spawn where you are
-	#instance.position.x += self.global_position.x
-	#instance.position.y += self.global_position.y
-	#spawn next to node
-	add_child(instance)
+	if current == null:
+		current = self
+		print("DSasdas")
+
+		hasnode = true
+	if hasnode:
+		hasnode = false
+		timer.wait_time = time
+		timer.start()
+
+func spawn():
+	var scene_in = spawn_scene.instantiate()
+	current = scene_in
+	add_child(scene_in)
+	scene_in.connect("tree_exiting",qued_free)   
+
+
+func _on_timer_timeout() -> void:
+	print("dfggfgdfg")
+	spawn()
+
+func qued_free():
+	
+	current = null

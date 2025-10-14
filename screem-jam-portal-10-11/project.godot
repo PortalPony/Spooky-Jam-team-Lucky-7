@@ -22,6 +22,7 @@ Inventory="*res://main/scripts/Inventory.gd"
 [global_group]
 
 angel=""
+player=""
 
 [input]
 

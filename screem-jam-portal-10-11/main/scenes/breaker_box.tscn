@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://c0xdavqccvqvs"]
+[gd_scene load_steps=4 format=3 uid="uid://c0xdavqccvqvs"]
 
 [ext_resource type="PackedScene" uid="uid://fqfao71jbfpq" path="res://main/Block System/effect/Add_to_Autobus.tscn" id="1_hk8yx"]
 [ext_resource type="PackedScene" uid="uid://csxhj8hprx8lc" path="res://main/Block System/cause/tappy.tscn" id="1_tidtp"]
+[ext_resource type="Texture2D" uid="uid://c31x46jis2ymh" path="res://main/circle_1.png" id="3_kcnjo"]
 
 [node name="Breaker box" type="Node2D"]
 
@@ -11,3 +12,9 @@ oneShot = true
 [node name="Tappy" parent="AddToAutobus" instance=ExtResource("1_tidtp")]
 position = Vector2(3, 11)
 amount = 5
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(3.000002, 11)
+scale = Vector2(0.9234375, 0.9234375)
+energy = 0.06
+texture = ExtResource("3_kcnjo")

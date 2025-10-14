@@ -15,7 +15,7 @@ func _input(event: InputEvent) -> void:
 			point_light_2d.hide()
 
 func _physics_process(delta: float) -> void:
-	print(battery)
+
 	if Inventory.batteries > 0 and battery < 25:
 		Inventory.batteries -= 1
 		battery = 100

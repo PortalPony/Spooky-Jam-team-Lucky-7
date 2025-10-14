@@ -1,19 +1,23 @@
 63f7b34db8d8cdea90c76aacccf841ec
 ::res://::1760366486
 icon.svg::CompressedTexture2D::1867933635168428132::1760277293::1760277378::1::::<><><>0<>0<>e34539c72ef1b3ce511cbb5e6e78d3d7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://main/::1760386036
+::res://main/::1760459472
 angel.png::CompressedTexture2D::8565379184382777812::1760386034::1760386036::1::::<><><>0<>0<>07cf129d2a568200755538a1995749a7<>res://.godot/imported/angel.png-7583cc52aad637f79923902fcdd3c731.ctex::
+battery.png::CompressedTexture2D::5404591716360867468::1760459471::1760459472::1::::<><><>0<>0<>9f91ec22429b010641399664437ff5dc<>res://.godot/imported/battery.png-00dd1d527ca4c1f9ff66f115ed56a535.ctex::
+box.png::CompressedTexture2D::8419927839431326450::1760457473::1760457474::1::::<><><>0<>0<>718472ccbc9ef092f4e32b42bbeabb2c<>res://.godot/imported/box.png-3573364001390396bc12d553fb2781ba.ctex::
+circle_1.png::CompressedTexture2D::6793252732229254711::1760457302::1760457309::1::::<><><>0<>0<>9f27e8343ed28c4a93648c84391220f1<>res://.godot/imported/circle_1.png-458bc314d025d1eae052ea516a9511cb.ctex::
 door.png::CompressedTexture2D::4879714624645603484::1760303246::1760303247::1::::<><><>0<>0<>16284c866959d87151dc96e908e75846<>res://.godot/imported/door.png-20cc5c78841016af1609c66d4cf008cb.ctex::
 door.tscn::PackedScene::8226842324528451606::1760378710::0::1::::<><><>0<>0<><>::uid://caqonjw3bm8f4::::res://main/Block System/effect/rotate_parent.tscn<>uid://bg6ocfwyj2du8::::res://main/Block System/cause/press_me.tscn<>uid://cbr1gmdg402ii::::res://main/door.png
 Electrician.png::CompressedTexture2D::2867867268750989275::1760286593::1760286593::1::::<><><>0<>0<>7481d1ee55d931f0edec1e3b4a2efcd4<>res://.godot/imported/Electrician.png-f7b7fbab5e3000070eb3f0c1105e51c9.ctex::
 enemys.tscn::PackedScene::6882181520044366073::1760386062::0::1::::<><><>0<>0<><>::uid://c8rn6d6gk4k3y::::res://main/scripts/weeping_angel.gd<>uid://dubesqtrwsprg::::res://main/angel.png
 flashlight_scene_im.tscn::PackedScene::5818811953167134660::1760378320::0::1::::<><><>0<>0<><>::uid://drvikjc8i7yvw::::res://main/scripts/flashlight.gd<>uid://cnfqeopr68qds::::res://main/Light.png
-full_human_player.tscn::PackedScene::980737693241341712::1760378006::0::1::::<><><>0<>0<><>::uid://ctjvoyd66bv46::::res://main/scripts/full_human_player.gd<>uid://ck08oafd3n0t6::::res://main/Block System/effect/kill_parent.tscn<>uid://bg4hmcjuujgo6::::res://main/Electrician.png<>uid://dru1ygt3posr3::::res://main/Block System/cause/step_on_me.tscn<>uid://b4j0ceow51e6k::::res://main/scenes/ui.tscn<>uid://co5w8obg657sa::::res://main/flashlight_scene_im.tscn<>uid://djhhpb13bjdu::::res://main/scripts/flash_light_attack.gd
+full_human_player.tscn::PackedScene::980737693241341712::1760460176::0::1::::<><><>0<>0<><>::uid://ctjvoyd66bv46::::res://main/scripts/full_human_player.gd<>uid://ck08oafd3n0t6::::res://main/Block System/effect/kill_parent.tscn<>uid://bg4hmcjuujgo6::::res://main/Electrician.png<>uid://dru1ygt3posr3::::res://main/Block System/cause/step_on_me.tscn<>uid://b4j0ceow51e6k::::res://main/scenes/ui.tscn<>uid://co5w8obg657sa::::res://main/flashlight_scene_im.tscn<>uid://djhhpb13bjdu::::res://main/scripts/flash_light_attack.gd<>uid://c31x46jis2ymh::::res://main/circle_1.png
 game_over.tscn::PackedScene::477994186066535092::1760380518::0::1::::<><><>0<>0<><>::uid://cvivg4dwboab5::::res://main/scripts/game_over.gd<>uid://c12sw5wth2jtj::::res://main/BBH_Sans_Bogle,Jersey_15,Oswald,Pixelify_Sans,Press_Start_2P/Oswald/static/Oswald-Bold.ttf
 IM_Flashlight.png::CompressedTexture2D::6934240586151231548::1760282756::1760282757::1::::<><><>0<>0<>e2f341802f05cbdb25c6f8002514ecf3<>res://.godot/imported/IM_Flashlight.png-6c82c62aee1a4077e91477e78448b6f3.ctex::
 Light.png::CompressedTexture2D::5696597597824917520::1760286044::1760286044::1::::<><><>0<>0<>036b9f21cb9fc49bb7f97ff6b628c1b6<>res://.godot/imported/Light.png-4236dd33cb5740ece7ea6aed0bb99272.ctex::
-main_scene.tscn::PackedScene::7608303949167836560::1760386189::0::1::::<><><>0<>0<><>::uid://dphe5ke52ej4i::::res://main/door.tscn<>uid://bd4u5ua1knwmo::::res://main/scenes/auto_bus_lighting.tscn<>uid://4npdrrkk1bvn::::res://main/scripts/main.gd<>uid://1u3ug0bm4h7a::::res://icon.svg<>uid://df75fiop06k7i::::res://main/wall.tscn<>uid://n8cuvewwtsia::::res://main/full_human_player.tscn<>uid://47hohp2f762y::::res://main/PNG/IM Erin's art/floor_sheet.webp<>uid://byn2lp3pa0c41::::res://main/PNG/IM Erin's art/decor.png<>uid://c5b1r25vtr3fh::::res://main/enemys.tscn<>uid://dudttrninvu7x::::res://main/PNG/Good Button.png<>uid://cqvapuwla6ivx::::res://main/Block System/Spawners/instance Timer.tscn
+main_scene.tscn::PackedScene::7608303949167836560::1760460116::0::1::::<><><>0<>0<><>::uid://dphe5ke52ej4i::::res://main/door.tscn<>uid://bd4u5ua1knwmo::::res://main/scenes/auto_bus_lighting.tscn<>uid://4npdrrkk1bvn::::res://main/scripts/main.gd<>uid://qgyb1hk5ypha::::res://main/scripts/breaker_spawner.gd<>uid://1u3ug0bm4h7a::::res://icon.svg<>uid://df75fiop06k7i::::res://main/wall.tscn<>uid://n8cuvewwtsia::::res://main/full_human_player.tscn<>uid://dr7w8mo6o4wow::::res://main/box.png<>uid://c5b1r25vtr3fh::::res://main/enemys.tscn<>uid://ba87inh7jpilk::::res://main/PNG/IM Erin's art/floor_sheet.png<>uid://cqvapuwla6ivx::::res://main/Block System/Spawners/instance Timer.tscn<>uid://dko3mm3vird2b::::res://main/scenes/battery.tscn
 show_hp.gd::GDScript::4686613327611553319::1760367595::0::1::::<>Label<><>0<>0<><>::
+switch.png::CompressedTexture2D::1495957962016939013::1760457961::1760457962::1::::<><><>0<>0<>b1e96acfe04817fb876d390754a09925<>res://.godot/imported/switch.png-eb8545056caf6e19f75234cc6528ca80.ctex::
 wall.tscn::PackedScene::7578097238682130136::1760366803::0::1::::<><><>0<>0<><>::uid://bucefqe32taqv::::res://main/PNG/Basic Wall 1.png
 ::res://main/Audio-20251013T182145Z-1-001/::1760379732
 ::res://main/Audio-20251013T182145Z-1-001/Audio/::1760379738
@@ -22,6 +26,39 @@ Lights_Off_Theme_v02LOOPABLE.mp3::AudioStreamMP3::2414158288447136333::176037973
 Lights_On_Theme_v01 (looped3x).mp3::AudioStreamMP3::1201276810000336933::1760379732::1760379738::1::::<><><>0<>0<>440a601253ad6bf1e61ab31786ec2e98<>res://.godot/imported/Lights_On_Theme_v01 (looped3x).mp3-716833744ae824be0b84303a9fa77334.mp3str::
 Main_Menu_v01.mp3::AudioStreamMP3::2899899928696538324::1760379732::1760379738::1::::<><><>0<>0<>a1491575c2e784fd4bf4867a87fa03b1<>res://.godot/imported/Main_Menu_v01.mp3-16c9ef29d2e551d543df7d7877e12403.mp3str::
 Prologue_Or_v01.mp3::AudioStreamMP3::1296886501611363532::1760379732::1760379738::1::::<><><>0<>0<>baf7bf1c1b6625ac28f99a755f74a91a<>res://.godot/imported/Prologue_Or_v01.mp3-1be4523942133edaf84d65b99203be0e.mp3str::
+::res://main/BBH_Sans_Bogle,Jersey_15,Jolly_Lodger,Oswald,Pixelify_Sans,etc/::1760457096
+::res://main/BBH_Sans_Bogle,Jersey_15,Jolly_Lodger,Oswald,Pixelify_Sans,etc/BBH_Sans_Bogle/::1760457099
+BBHSansBogle-Regular.ttf::FontFile::2598103000659310128::1760457096::1760457099::1::::<><><>0<>0<>4b55065da353b1e9062ff1577fe220ca<>res://.godot/imported/BBHSansBogle-Regular.ttf-bc50f99a03f8c87e979581a488e5019a.fontdata::
+OFL.txt::TextFile::-1::1760457096::0::1::::<><><>0<>0<><>::
+::res://main/BBH_Sans_Bogle,Jersey_15,Jolly_Lodger,Oswald,Pixelify_Sans,etc/Jersey_15/::1760457099
+Jersey15-Regular.ttf::FontFile::8780573211517924787::1760457096::1760457099::1::::<><><>0<>0<>e94a0ecb7adbf96ff288bb893ccd7305<>res://.godot/imported/Jersey15-Regular.ttf-7138c6fdfe7cd6813b36499d8bfbee90.fontdata::
+OFL.txt::TextFile::-1::1760457096::0::1::::<><><>0<>0<><>::
+::res://main/BBH_Sans_Bogle,Jersey_15,Jolly_Lodger,Oswald,Pixelify_Sans,etc/Jolly_Lodger/::1760457099
+JollyLodger-Regular.ttf::FontFile::6006049641827745917::1760457096::1760457128::1::::<><><>0<>0<>10d7aea86ec768b9d087ce2331e3c701<>res://.godot/imported/JollyLodger-Regular.ttf-198806639b06910f8855d84cfd65f093.fontdata::
+OFL.txt::TextFile::-1::1760457096::0::1::::<><><>0<>0<><>::
+::res://main/BBH_Sans_Bogle,Jersey_15,Jolly_Lodger,Oswald,Pixelify_Sans,etc/Oswald/::1760457099
+OFL.txt::TextFile::-1::1760457096::0::1::::<><><>0<>0<><>::
+Oswald-VariableFont_wght.ttf::FontFile::5367544873210610229::1760457096::1760457099::1::::<><><>0<>0<>e978a90369156ee3cab5ca8e7c1a6542<>res://.godot/imported/Oswald-VariableFont_wght.ttf-b4ce286059de2913a4c29276201f12a0.fontdata::
+README.txt::TextFile::-1::1760457096::0::1::::<><><>0<>0<><>::
+::res://main/BBH_Sans_Bogle,Jersey_15,Jolly_Lodger,Oswald,Pixelify_Sans,etc/Oswald/static/::1760457099
+Oswald-Bold.ttf::FontFile::5711601438299252434::1760457096::1760457099::1::::<><><>0<>0<>35f2cbadc8336244ac71771c94f5b772<>res://.godot/imported/Oswald-Bold.ttf-f1989fe5d959551d912149c0564bd21d.fontdata::
+Oswald-ExtraLight.ttf::FontFile::7000098536339493031::1760457096::1760457099::1::::<><><>0<>0<>98439c28fe6e07e843dc1018192edf6a<>res://.godot/imported/Oswald-ExtraLight.ttf-f8a1fff1ed09119839898dcbd6b037b9.fontdata::
+Oswald-Light.ttf::FontFile::8022695694839900783::1760457096::1760457099::1::::<><><>0<>0<>a52975c9a872b9009d2627d4c9777a2d<>res://.godot/imported/Oswald-Light.ttf-7196d4257cbdc29a5bb4bdfb70a58302.fontdata::
+Oswald-Medium.ttf::FontFile::8405287933441415249::1760457096::1760457099::1::::<><><>0<>0<>3ad884bb9cb466e7b7f42d461ef8ef56<>res://.godot/imported/Oswald-Medium.ttf-7fa9eaaa98788660a5a3ec624dd5a176.fontdata::
+Oswald-Regular.ttf::FontFile::8448059200814381879::1760457096::1760457099::1::::<><><>0<>0<>8b3e3238c7282ee1c16a01001bfd235b<>res://.godot/imported/Oswald-Regular.ttf-9b226a57ed15c517c81eae05cb9d8569.fontdata::
+Oswald-SemiBold.ttf::FontFile::6518331653037401384::1760457096::1760457099::1::::<><><>0<>0<>62d73a6f515e6049e4f91ff114b3320c<>res://.godot/imported/Oswald-SemiBold.ttf-56ab5fe102e61b87bd64d52a1586587e.fontdata::
+::res://main/BBH_Sans_Bogle,Jersey_15,Jolly_Lodger,Oswald,Pixelify_Sans,etc/Pixelify_Sans/::1760457099
+OFL.txt::TextFile::-1::1760457096::0::1::::<><><>0<>0<><>::
+PixelifySans-VariableFont_wght.ttf::FontFile::6415779496994959662::1760457096::1760457099::1::::<><><>0<>0<>71668a86b7639835e0d586a367f00401<>res://.godot/imported/PixelifySans-VariableFont_wght.ttf-93231a0afb4792ba659183d7e4f0874e.fontdata::
+README.txt::TextFile::-1::1760457096::0::1::::<><><>0<>0<><>::
+::res://main/BBH_Sans_Bogle,Jersey_15,Jolly_Lodger,Oswald,Pixelify_Sans,etc/Pixelify_Sans/static/::1760457099
+PixelifySans-Bold.ttf::FontFile::2292324485657913221::1760457096::1760457099::1::::<><><>0<>0<>16c9c70706933a507ec6dcb3bcb07a71<>res://.godot/imported/PixelifySans-Bold.ttf-1f4ef6a9cabf03e56e0199dbe00568b2.fontdata::
+PixelifySans-Medium.ttf::FontFile::5091093770672222593::1760457096::1760457099::1::::<><><>0<>0<>382ceace5fd29c7bcc97e9bd14265415<>res://.godot/imported/PixelifySans-Medium.ttf-934716cd5c73b8e5f51ad2d87993e8b2.fontdata::
+PixelifySans-Regular.ttf::FontFile::8684941948920987731::1760457096::1760457099::1::::<><><>0<>0<>4590392af35c2f4e7310bbc01279d8b1<>res://.godot/imported/PixelifySans-Regular.ttf-52f39a4dd8bed202ee7aea15ba956f91.fontdata::
+PixelifySans-SemiBold.ttf::FontFile::3625515938988120974::1760457096::1760457099::1::::<><><>0<>0<>8c0f5c3bec7fdf55de88d6d088468b41<>res://.godot/imported/PixelifySans-SemiBold.ttf-ec61afe4336cea43ae24d238c86a1ce7.fontdata::
+::res://main/BBH_Sans_Bogle,Jersey_15,Jolly_Lodger,Oswald,Pixelify_Sans,etc/Press_Start_2P/::1760457099
+OFL.txt::TextFile::-1::1760457096::0::1::::<><><>0<>0<><>::
+PressStart2P-Regular.ttf::FontFile::456034855117409088::1760457096::1760457099::1::::<><><>0<>0<>9f37d44bfbdfad7bdadfda494f582c09<>res://.godot/imported/PressStart2P-Regular.ttf-ca252d91fe343fb03feac136a4ed1b72.fontdata::
 ::res://main/BBH_Sans_Bogle,Jersey_15,Oswald,Pixelify_Sans,Press_Start_2P/::1760368855
 ::res://main/BBH_Sans_Bogle,Jersey_15,Oswald,Pixelify_Sans,Press_Start_2P/BBH_Sans_Bogle/::1760368871
 BBHSansBogle-Regular.ttf::FontFile::6731985804755428585::1760368855::1760368871::1::::<><><>0<>0<>cc73bc756e8b921eb14a0629c0458a65<>res://.godot/imported/BBHSansBogle-Regular.ttf-db60428759791608a1bb1ae735eb5327.fontdata::
@@ -57,12 +94,12 @@ PressStart2P-Regular.ttf::FontFile::5597694218789147993::1760368855::1760368872:
 press_me.gd::GDScript::6402747147949082793::1760378710::0::1::::<>Area2D<><>0<>0<><>::
 press_me.tscn::PackedScene::2872403363089679165::1760279385::0::1::::<><><>0<>0<><>::uid://cxhskspeua5fh::::res://main/Block System/cause/press_me.gd
 press_me_OG.gd::GDScript::8983177643846365399::1760277293::0::1::::<>Area2D<><>0<>0<><>::
-step_on_me.gd::GDScript::5606756769803850448::1760366486::0::1::::<>Area2D<><>0<>0<><>::
-step_on_me.tscn::PackedScene::8395381794656888134::1760366486::0::1::::<><><>0<>0<><>::uid://cl47p2medpjwy::::res://main/Block System/cause/step_on_me.gd<>uid://dudttrninvu7x::::res://main/PNG/Good Button.png
+step_on_me.gd::GDScript::5606756769803850448::1760460159::0::1::::<>Area2D<><>0<>0<><>::
+step_on_me.tscn::PackedScene::8395381794656888134::1760460159::0::1::::<><><>0<>0<><>::uid://cl47p2medpjwy::::res://main/Block System/cause/step_on_me.gd<>uid://cjaa3omdbvl7i::::res://main/battery.png
 tappy.gd::GDScript::6585212448050661105::1760366486::0::1::::<>Area2D<><>0<>0<><>::
-tappy.tscn::PackedScene::6084164077098046436::1760279385::0::1::::<><><>0<>0<><>::uid://c026qs4opavx6::::res://main/Block System/cause/tappy.gd<>uid://cgvhlvxqsmuly::::res://main/PNG/Valve.png
+tappy.tscn::PackedScene::6084164077098046436::1760458027::0::1::::<><><>0<>0<><>::uid://c026qs4opavx6::::res://main/Block System/cause/tappy.gd<>uid://vkwhdxm0hdsn::::res://main/switch.png
 ::res://main/Block System/effect/::1760366486
-add_to_autobus.gd::GDScript::5423239836029776993::1760366486::0::1::::<>Node2D<><>0<>0<><>::
+add_to_autobus.gd::GDScript::5423239836029776993::1760458143::0::1::::<>Node2D<><>0<>0<><>::
 Add_to_Autobus.tscn::PackedScene::384278633172987642::1760286493::0::1::::<><><>0<>0<><>::uid://cjjb75yuyk8h6::::res://main/Block System/effect/add_to_autobus.gd
 fire_guns.gd::GDScript::3875706611952497842::1760277293::0::1::::<>Node2D<><>0<>0<><>::
 fire_guns.tscn::PackedScene::8728720092912620703::1760279385::0::1::::<><><>0<>0<><>::uid://bvhok63f4flsk::::res://main/Block System/effect/fire_guns.gd<>uid://c6melgu6amagb::::res://main/PNG/Machine Gun.png
@@ -71,7 +108,7 @@ kill_parent.tscn::PackedScene::5528367917392268497::1760366486::0::1::::<><><>0<
 rotate_parent.gd::GDScript::4270026880521882265::1760277293::0::1::::<>Node2D<><>0<>0<><>::
 rotate_parent.tscn::PackedScene::4806745172640539323::1760279385::0::1::::<><><>0<>0<><>::uid://b13oypaheem2t::::res://main/Block System/effect/rotate_parent.gd
 ::res://main/Block System/Spawners/::1760366486
-instance Timer.gd::GDScript::7100973824953019229::1760366486::0::1::::<>Node2D<><>0<>0<><>::
+instance Timer.gd::GDScript::7100973824953019229::1760460079::0::1::::<>Node2D<><>0<>0<><>::
 instance Timer.tscn::PackedScene::5939242670292267097::1760366486::0::1::::<><><>0<>0<><>::uid://c8f1abwjiwaan::::res://main/Block System/Spawners/instance Timer.gd
 instance.gd::GDScript::1892447172711780580::1760366486::0::1::::<>Node2D<><>0<>0<><>::
 instance.tscn::PackedScene::6088851508110097104::1760366486::0::1::::<><><>0<>0<><>::uid://17ylfxgklobs::::res://Spawners/instance.gd
@@ -96,7 +133,7 @@ Water+.png::CompressedTexture2D::3618296237358514858::1760277293::1760366651::1:
 FULL HUAMN no legs.png::CompressedTexture2D::6210355143953089907::1760277293::1760366651::1::::<><><>0<>0<>060fe08038de7090de4fd9a77104eb9b<>res://.godot/imported/FULL HUAMN no legs.png-563f5c6a0d9eccb96faa2bca5b5b59df.ctex::
 FULL HUAMN.png::CompressedTexture2D::5477271914858501589::1760277293::1760366651::1::::<><><>0<>0<>3ff36ee70c11b423b2ea1755c9ed5911<>res://.godot/imported/FULL HUAMN.png-0957d7fb38da91e1f3c47355e252446c.ctex::
 legs  FULL HUAMN.png::CompressedTexture2D::929461778252056546::1760277293::1760366651::1::::<><><>0<>0<>8536951a5e039c396d75947da134428e<>res://.godot/imported/legs  FULL HUAMN.png-aeba783ff3752c2f02a9d997e4662eb0.ctex::
-::res://main/PNG/IM Erin's art/::1760386280
+::res://main/PNG/IM Erin's art/::1760386283
 decor.png::CompressedTexture2D::4099449676133596836::1760277293::1760366651::1::::<><><>0<>0<>5b601b73aac06ac09cb96ad8b9d6421d<>res://.godot/imported/decor.png-82a305a88a527dd0aa6a2b72a659fa13.ctex::
 floor_sheet.png::CompressedTexture2D::2456503074780582248::1760386280::1760386283::1::::<><><>0<>0<>e23b570032d695be23177612e70232f3<>res://.godot/imported/floor_sheet.png-93d0061061dd6366fa2b3523d488991c.ctex::
 floor_sheet.webp::CompressedTexture2D::2101986965767135642::1760277293::1760366651::1::::<><><>0<>0<>2cab9d837c7992e8133e8a2dde7cb28a<>res://.godot/imported/floor_sheet.webp-bf2cf97de0e20ab1137ebe32e1b8916f.ctex::
@@ -113,13 +150,14 @@ legs  FULL HUAMN.png::CompressedTexture2D::929461778252056546::1760277293::17603
 ::res://main/scenes/::1760380982
 auto_bus_lighting.tscn::PackedScene::2658123134809631942::1760366486::0::1::::<><><>0<>0<><>::uid://bw3vtu16wvw8c::::res://main/scripts/auto_bus_lighting.gd
 battery.tscn::PackedScene::7891773955841016139::1760287297::0::1::::<><><>0<>0<><>::uid://fqfao71jbfpq::::res://main/Block System/effect/Add_to_Autobus.tscn<>uid://dru1ygt3posr3::::res://main/Block System/cause/step_on_me.tscn
-breaker_box.tscn::PackedScene::6575226425460297764::1760366486::0::1::::<><><>0<>0<><>::uid://fqfao71jbfpq::::res://main/Block System/effect/Add_to_Autobus.tscn<>uid://csxhj8hprx8lc::::res://main/Block System/cause/tappy.tscn
+breaker_box.tscn::PackedScene::6575226425460297764::1760458143::0::1::::<><><>0<>0<><>::uid://fqfao71jbfpq::::res://main/Block System/effect/Add_to_Autobus.tscn<>uid://csxhj8hprx8lc::::res://main/Block System/cause/tappy.tscn<>uid://c31x46jis2ymh::::res://main/circle_1.png
 main_menu.gdshader::Shader::4668618041270198047::1760381072::0::1::::<><><>0<>0<><>::
 main_menu.tscn::PackedScene::901704948069637696::1760381435::0::1::::<><><>0<>0<><>::uid://c12sw5wth2jtj::::res://main/BBH_Sans_Bogle,Jersey_15,Oswald,Pixelify_Sans,Press_Start_2P/Oswald/static/Oswald-Bold.ttf
-ui.tscn::PackedScene::4441998278150908968::1760377993::0::1::::<><><>0<>0<><>::uid://bwuqpg8uhbtji::::res://main/scripts/show_batteries.gd<>uid://c12sw5wth2jtj::::res://main/BBH_Sans_Bogle,Jersey_15,Oswald,Pixelify_Sans,Press_Start_2P/Oswald/static/Oswald-Bold.ttf<>uid://bc8r6hbcr3u60::::res://main/scripts/show_breakBox.gd<>uid://b71h3pk6h0yi6::::res://main/show_hp.gd
-::res://main/scripts/::1760379798
+ui.tscn::PackedScene::4441998278150908968::1760457188::0::1::::<><><>0<>0<><>::uid://bwuqpg8uhbtji::::res://main/scripts/show_batteries.gd<>uid://crtm03xhdrf5v::::res://main/BBH_Sans_Bogle,Jersey_15,Jolly_Lodger,Oswald,Pixelify_Sans,etc/Jolly_Lodger/JollyLodger-Regular.ttf<>uid://bc8r6hbcr3u60::::res://main/scripts/show_breakBox.gd<>uid://b71h3pk6h0yi6::::res://main/show_hp.gd
+::res://main/scripts/::1760459781
 auto_bus_flishlighting.gd::GDScript::6399999667234802786::1760366486::0::1::::<>PointLight2D<><>0<>0<><>::
 auto_bus_lighting.gd::GDScript::3989687899846443172::1760366486::0::1::::<>DirectionalLight2D<><>0<>0<><>::
+breaker_spawner.gd::GDScript::1136868135269316682::1760460117::0::1::::<>Node2D<><>0<>0<><>::
 flashlight.gd::GDScript::8396328396953395680::1760378320::0::1::::<>Node2D<><>0<>0<><>::
 flash_light_attack.gd::GDScript::229584240821179494::1760368338::0::1::::<>Area2D<><>0<>0<><>::
 full_human_player.gd::GDScript::6126310120902925541::1760367287::0::1::::<>CharacterBody2D<><>0<>0<><>::

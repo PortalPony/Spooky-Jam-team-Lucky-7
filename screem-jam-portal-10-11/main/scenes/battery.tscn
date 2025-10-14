@@ -1,13 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://dko3mm3vird2b"]
+[gd_scene load_steps=4 format=3 uid="uid://dko3mm3vird2b"]
 
-[ext_resource type="PackedScene" uid="uid://fqfao71jbfpq" path="res://main/Block System/effect/Add_to_Autobus.tscn" id="1_a6o13"]
-[ext_resource type="PackedScene" uid="uid://dru1ygt3posr3" path="res://main/Block System/cause/step_on_me.tscn" id="2_nesfx"]
+[ext_resource type="Script" uid="uid://dr8t2kxfo2d1y" path="res://main/scripts/battery.gd" id="1_a6o13"]
+[ext_resource type="Texture2D" uid="uid://cjaa3omdbvl7i" path="res://main/battery.png" id="2_nesfx"]
 
-[node name="Battery" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_44nuw"]
+size = Vector2(58, 20)
 
-[node name="AddToAutobus" parent="." instance=ExtResource("1_a6o13")]
-thing = "batteries"
-oneShot = true
+[node name="Battery" type="Area2D"]
+script = ExtResource("1_a6o13")
 
-[node name="Step on me" parent="AddToAutobus" instance=ExtResource("2_nesfx")]
-position = Vector2(2, -4)
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("2_nesfx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_44nuw")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

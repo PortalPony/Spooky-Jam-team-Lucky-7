@@ -1,15 +1,13 @@
-[gd_scene load_steps=7 format=3 uid="uid://b4j0ceow51e6k"]
+[gd_scene load_steps=6 format=3 uid="uid://b4j0ceow51e6k"]
 
 [ext_resource type="Script" uid="uid://bwuqpg8uhbtji" path="res://main/scripts/show_batteries.gd" id="1_4khfq"]
-[ext_resource type="FontFile" uid="uid://c12sw5wth2jtj" path="res://main/BBH_Sans_Bogle,Jersey_15,Oswald,Pixelify_Sans,Press_Start_2P/Oswald/static/Oswald-Bold.ttf" id="1_fh4ho"]
+[ext_resource type="FontFile" uid="uid://crtm03xhdrf5v" path="res://main/BBH_Sans_Bogle,Jersey_15,Jolly_Lodger,Oswald,Pixelify_Sans,etc/Jolly_Lodger/JollyLodger-Regular.ttf" id="1_81hkr"]
 [ext_resource type="Script" uid="uid://bc8r6hbcr3u60" path="res://main/scripts/show_breakBox.gd" id="2_akaht"]
 [ext_resource type="Script" uid="uid://b71h3pk6h0yi6" path="res://main/show_hp.gd" id="4_81hkr"]
 
-[sub_resource type="LabelSettings" id="LabelSettings_81hkr"]
-font = ExtResource("1_fh4ho")
-
 [sub_resource type="LabelSettings" id="LabelSettings_s43ce"]
-font = ExtResource("1_fh4ho")
+font = ExtResource("1_81hkr")
+font_size = 32
 
 [node name="UI" type="CanvasLayer"]
 
@@ -26,13 +24,13 @@ theme_override_constants/separation = 20
 [node name="Show Batteries" type="Label" parent="HBoxContainer"]
 layout_mode = 2
 text = "dsddfffsefsdfs"
-label_settings = SubResource("LabelSettings_81hkr")
+label_settings = SubResource("LabelSettings_s43ce")
 script = ExtResource("1_4khfq")
 
 [node name="Show BreakBox" type="Label" parent="HBoxContainer"]
 layout_mode = 2
 text = "dsddfffsefsdfs"
-label_settings = SubResource("LabelSettings_81hkr")
+label_settings = SubResource("LabelSettings_s43ce")
 script = ExtResource("2_akaht")
 
 [node name="Show hp" type="Label" parent="HBoxContainer"]

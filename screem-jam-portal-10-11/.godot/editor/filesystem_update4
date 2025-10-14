@@ -1,2 +1,11 @@
-res://main/enemys.tscn
+res://main/Block System/cause/step_on_me.tscn
+res://main/Block System/effect/add_to_autobus.gd
+res://main/Block System/cause/step_on_me.gd
+res://main/scripts/battery.gd
+res://main/scenes/battery.tscn
 res://main/main_scene.tscn
+res://main/Block System/Spawners/instance Timer.tscn
+res://main/Block System/Spawners/instance Timer.gd
+res://main/scripts/flashlight.gd
+res://main/scripts/full_human_player.gd
+res://main/scenes/breaker_box.tscn
