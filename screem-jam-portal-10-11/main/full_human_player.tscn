@@ -44,15 +44,20 @@ position = Vector2(-24.999994, -3.8146973e-06)
 scale = Vector2(0.99999994, 0.99999994)
 
 [node name="PointLight2D" parent="Flashlight scene IM" index="0"]
-position = Vector2(-3.0000057, 116.00001)
+position = Vector2(-4.0000057, 51.00001)
 rotation = 0.0
+scale = Vector2(15.639585, 6.5045795)
+offset = Vector2(0, 16.578388)
 
 [node name="StaticBody2D" type="Area2D" parent="Flashlight scene IM"]
+position = Vector2(-3.0000057, 3.0000038)
 collision_layer = 2
 collision_mask = 2
 script = ExtResource("6_tkg5m")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Flashlight scene IM/StaticBody2D"]
+position = Vector2(6.9999948, -48)
+scale = Vector2(2.0674298, 1.8579156)
 polygon = PackedVector2Array(-9.000006, 54.000004, 0.9999943, 55.000004, 89.99999, 165, -93.00001, 167)
 
 [node name="UI" parent="." instance=ExtResource("4_5la21")]
